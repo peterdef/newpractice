@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+pubspec.lock
+
+# Android
+android/app/debug
+android/app/profile
+android/app/release
+android/app/.cxx
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+android/app/google-services.json
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Runner/GoogleService-Info.plist
+
+# Web
+web/build/
+
+# Desktop
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+# Variables de entorno
+.env
+
+
+# Symbolication
+app.*.symbols
+app.*.map.json
