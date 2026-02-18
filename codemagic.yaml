@@ -1,14 +1,10 @@
 workflows:
-  android-debug:
-    name: Android Debug Preview
+  flutter-ios-simulator:
+    name: Flutter iOS Simulator
     environment:
-      flutter: stable
+      flutter: 3.27.3
+      xcode: 16.2
     scripts:
-      - name: Get Flutter packages
-        script: flutter pub get
-
-      - name: Build debug APK
-        script: flutter build apk --debug
-
+      - flutter build ios --simulator --flavor staging  # --flavor is optional
     artifacts:
-      - build/app/outputs/flutter-apk/app-debug.apk
+      - build/ios/iphonesimulator/Runner.app
